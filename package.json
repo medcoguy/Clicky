@@ -1,0 +1,31 @@
+{
+  "name": "clicky",
+  "version": "1.0.0",
+  "description": "React.JS app",
+  "main": "jsconfig.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medcoguy/Clicky.git"
+  },
+  "author": "Drew Brooksbank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/medcoguy/Clicky/issues"
+  },
+  "homepage": "https://github.com/medcoguy/Clicky",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "gh-pages": "^2.0.1"
+  }
+}
